@@ -23,7 +23,7 @@ if fortune <= 2:
     if fortune < 2:
         print("You will lose all your blueberry muffins")
     else: 
-        print("You will adopt a rabbit and name it Lil Bunny.")
+        print("You will adopt a rabbit and name it Lil Bunny!")
 else: 
     if fortune > 2:
         print ("Your mom will invest all your college fund money in gamestop.")
