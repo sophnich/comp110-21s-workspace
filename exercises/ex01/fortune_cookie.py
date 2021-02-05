@@ -18,14 +18,17 @@ from random import randint
 
 print("Your fourtune cookie says...")
 from random import randint
-fortune: int = randint(1, 3)
+fortune: int = randint(1, 4)
 if fortune <= 2: 
-    if fortune < 2:
+    if fortune == 2:
         print("You will lose all your blueberry muffins")
     else: 
         print("You will adopt a rabbit and name it Lil Bunny!")
 else: 
-    if fortune > 2:
+    if fortune == 3:
         print ("Your mom will invest all your college fund money in gamestop.")
+    else: 
+        print ("The earth will blow up.")
+    
 
 print("Now, go spread positive vibes!")
